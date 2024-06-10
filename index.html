@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Modulo 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        Portoflio
+    </header>
+    <main>
+        <article class="container">
+            <h1>Sobre Mí</h1>
+            <img src="/Trabajando.png" id="imgPortfolio" alt="Imagen del Portafolio">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quasi pariatur corrupti, <b>itaque
+                    ex quos natus vitae excepturi soluta facilis eaque</b> , dolorum deleniti rem deserunt quis? Eos
+                quam nesciunt nostrum.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eum eos facere ea asperiores aspernatur quaerat possimus dicta corporis debitis eius et, impedit sed beatae quis magni amet nobis similique?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.<b>Ullam fugiat iure reprehenderit odio maxime a
+                    illum</b> , commodi quos dolor nemo ex voluptatum dolore accusamus, impedit voluptatem quo tenetur,
+                suscipit possimus.
+            </p>
+            <p>
+                Lorem ipsum dolor <b>sit amet consectetur adipisicing elit</b>. Ullam fugiat iure reprehenderit odio
+                maxime a illum, commodi quos dolor nemo ex voluptatum dolore accusamus, impedit voluptatem quo tenetur,
+                suscipit possimus.
+            </p>
+            <p class="consultas"><a href="#section-contact">¿Quères saber màs? Comunicate</a></p>
+        </article>
+    </main>
+
+    <section id="section-knowledge">
+        <div class="container">
+            <h2>Conocimientos</h2>
+            <table>
+                <tr>
+                    <td>Programación</td>
+                    <td>
+                        <div class="progress-bar" style="background-color:#f46524 ;width:70% ;">50%</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Inglés</td>
+                    <td>
+                        <div class="progress-bar" style="background-color:#d0c709 ;width:70% ;">70%</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Photoshop</td>
+                    <td>
+                        <div class="progress-bar" style="background-color:#068754 ;width:20% ;">20%</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>RRSS</td>
+                    <td>
+                        <div class="progress-bar" style="background-color:#00f ;width:95% ;">95%</div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section class="section-contact" id="section-contact">
+        <div class="container">
+            <h2>Comunicate</h2>
+            <ul>
+                <li><a href="#">TikTok</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Whatsapp</a></li>
+            </ul>
+            <form>
+                <label for="fName">Nombre</label>
+                <input type="text" name="fName" id="fName" required>
+
+                <label for="fEmail">Email</label>
+                <input type="email" name="fEmail" id="fEmail" required>
+
+                <label for="fComments">Comentarios</label>
+                <textarea name="fComments" id="fComments"></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+    <footer></footer>
+
+</body>
+
+</html>
